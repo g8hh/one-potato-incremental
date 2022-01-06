@@ -43,7 +43,7 @@ function updateCoinsText() {
 
 function updateMashedPotatoText() {
   document.getElementById("mashed_potatoes").innerHTML = mashed_potatoes
-  document.getElementById("mashed_potatoes_info").innerHTML = "You have "+mashed_potatoes+" <span><img src='sprites/mashed_potato_icon.png' class='small_icon'></img></span>, granting you a bonus "+Math.floor((((mashed_potatoes/100)+1)**3.2)*100)/100+"x to growth speed"
+  document.getElementById("mashed_potatoes_info").innerHTML = "你有 "+mashed_potatoes+" <span><img src='sprites/mashed_potato_icon.png' class='small_icon'></img></span>, 授予你一个奖励 "+Math.floor((((mashed_potatoes/100)+1)**3.2)*100)/100+"x 到生长速度"
   if (mashed_potatoes == 0) {
     document.getElementById("mashed_potatoes").innerHTML = "No mashed potatoes"
   }
