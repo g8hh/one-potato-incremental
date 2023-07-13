@@ -6,6 +6,7 @@ var study_req = 5
 var study_req_cost = 5
 var retain_automators = false
 var autocook_unlocked = false
+var prestige_1_buff = 1;
 
 
 function softReset() {
@@ -20,7 +21,7 @@ function softReset() {
   potato_dna = 0
   food_tier = 0
   fry_bonus = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-  potato_stage_requirements = [100,600,3000,5000,20000,100000,500000,2560000,5000000,20000000,1e+9,5e+11,1e+15,1e+21,1e+27,1e+34]
+  potato_stage_requirements = [100,600,3000,5000,20000,100000,500000,2560000,5000000,20000000,1e+9,5e+11,1e+15,1e+19,1e+22,1e+27]
   fertilizer_price = 5
   fertilizer_level = 0
   seed_research_cost = 1
